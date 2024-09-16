@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="/css/otro.css"> <!-- Enlace al archivo CSS -->
+    <script defer src="/js/otro.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Control de Stock</h1>
+        <nav>
+            <ul>
+                <a href="/index.html">volver</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <!-- Aca voy a agregar un formulario de busqueda para encontrar productos y revisar su stock-->
+        <section>
+            <form id="busqueda">
+                <input type="text" id="busquedaInput" placeholder="Buscar producto">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        
+        <section>
+            <table>
+                <thead>
+                    <th>Nombre</th>
+                    <th>tipo</th>
+                    <th>Fecha de ingreso</th>
+                    <th>Area</th>
+                    <th>Stock actual</th>
+                    <th>Precio</th>
+                    
+                </thead>
+                <tbody id="table" class="prueba" style="width: 100%;">
+                    <!-- Aqui inserto dinamicamente los datos desde el localstorage-->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h3>footer</h3>
+    </footer>
+</body>
+</html>
+

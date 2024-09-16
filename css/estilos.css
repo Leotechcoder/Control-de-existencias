@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color:papayawhip;
+}
+
+h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.2em;    
+    text-align: center; 
+}
+
+li{    
+    margin-right: 20px;
+    display: block;
+}
+a{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.1em;
+    text-decoration: none;
+}
+
+ul{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#tone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: lightcoral;
+    border-radius: 50% ;
+    transform: rotate(-25deg);
+
+}
+
+#caja{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(187, 87, 87);
+    border-radius: 15px 250px;
+    border: 1.5px solid #445784;
+    transform: rotate(0deg);
+}
+#caja1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(197, 80, 80);
+    border-radius: 15px 250px;
+    transform: rotate(18deg);
+    z-index: -1;
+    border: 1.6px solid #445784;
+}
+#caja2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(175, 78, 78);
+    border-radius: 15px 250px;
+    transform: rotate(36deg);
+    border: 1.7px solid #445784;
+}
+#caja3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(204, 108, 108);
+    border-radius: 15px 250px;
+    transform: rotate(54deg);
+    border: 1.8px solid #445784;
+}
+#caja4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(177, 78, 78);
+    border-radius: 15px 250px;
+    transform: rotate(72deg);
+    border: 1.9px solid #445784;
+}
+#caja5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(173, 91, 91);
+    border-radius: 15px 250px;
+    transform: rotate(90deg);
+    border: 2px solid #445784;
+}
+#caja6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(175, 81, 81);
+    border-radius: 15px 250px;
+    transform: rotate(108deg);
+    border: 2px solid #445784;
+}
+#caja7{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(180, 102, 102);
+    border-radius: 15px 250px;
+    transform: rotate(126deg);
+    border: 2px solid #445784;
+}
+#caja8{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(177, 85, 85);
+    border-radius: 15px 250px;
+    transform: rotate(144deg);
+    border: 2px solid #445784;
+}
+#caja9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(187, 146, 146);
+    border-radius: 15px 250px;
+    transform: rotate(162deg); 
+    border: 2px solid #445784;
+}
+
+#ojo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #445784;
+    border: 2.5px solid darkslategray;
+    border-radius: 50%;
+}
+#ojo1{
+    
+    width: 13px;
+    height: 13px;
+    background-color: #222b41;
+    border: 2.5px solid rgb(30, 51, 51);
+    border-radius: 50%;
+}
